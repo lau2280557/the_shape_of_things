@@ -17,7 +17,7 @@ public class Project2 {
         The following code works with the example design given.
          */
 
-        /*ThreeDimensionalShape sphere = new Sphere(2.0);
+        ThreeDimensionalShape sphere = new Sphere(2.0);
         ThreeDimensionalShape cube = new Cube(5.0);
         ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
 
@@ -27,13 +27,9 @@ public class Project2 {
         shapes.add(cube);
         shapes.add(cylinder);
 
-        shapes.forEach(System.out::println);*/
+        shapes.forEach(System.out::println);
 
-        /*
-        The following code works with the code given.
-         */
 
-        Sphere sphere = new Sphere(2.0);
         System.out.println(sphere);
     }
 
